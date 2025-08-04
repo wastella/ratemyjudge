@@ -91,7 +91,7 @@ function JudgePage() {
     );
     
     if (!isValidCircuit) {
-      alert('Please enter either "NatCirc" or "Ohio"');
+      alert('Please enter a valid circuit');
       return;
     }
     

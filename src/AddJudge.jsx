@@ -75,7 +75,7 @@ function AddJudge() {
           </label>
           <input
             type="text"
-            placeholder="Enter judge name..."
+            placeholder="Enter judge name"
             value={judgeName}
             onChange={(e) => setJudgeName(e.target.value)}
             style={{
@@ -104,7 +104,7 @@ function AddJudge() {
           <div style={{ position: 'relative' }}>
             <input
               type="text"
-              placeholder="Enter Circuit"
+              placeholder="Enter the circuit"
               value={circuit}
               onChange={(e) => setCircuit(e.target.value)}
               style={{

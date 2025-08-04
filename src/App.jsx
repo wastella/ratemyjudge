@@ -47,13 +47,7 @@ function Navigation() {
               ← Back
             </Link>
           )}
-          <span style={{
-            color: '#666666',
-            fontSize: '1rem',
-            fontStyle: 'italic'
-          }}>
-            by wastella
-          </span>
+          
         </div>
       </div>
     </nav>
