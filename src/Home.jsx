@@ -103,7 +103,7 @@ function Home() {
         color: '#ffffff',
         fontWeight: '300'
       }}>
-        Crowdsourced judge info for debaters
+        crowdsourced judge info for debaters
       </h2>
 
       <div ref={searchRef} style={{ position: 'relative' }}>
