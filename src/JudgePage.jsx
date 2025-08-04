@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { db } from './firebase';
-import { collection, addDoc, query, where, onSnapshot, serverTimestamp, getDocs, doc, updateDoc } from 'firebase/firestore';
+import { collection, addDoc, query, where, onSnapshot, getDocs, doc, updateDoc } from 'firebase/firestore';
 
 function JudgePage() {
   const [reviews, setReviews] = useState([]);
@@ -74,7 +74,6 @@ function JudgePage() {
       judgeId: judgeSlug,
       comment,
       rating: Number(rating),
-      timestamp: serverTimestamp()
     });
 
     setComment('');
@@ -509,9 +508,6 @@ function JudgePage() {
                 <span style={{ color: '#ffffff', fontSize: '1.2rem' }}>
                   {'★'.repeat(review.rating)}
                 </span>
-                <small style={{ color: '#cccccc', fontSize: '0.8rem' }}>
-                  {review.timestamp?.toDate?.().toLocaleString?.() ?? "Just now"}
-                </small>
               </div>
               <p style={{ 
                 margin: 0, 

@@ -2,6 +2,8 @@ import { BrowserRouter as Router, Routes, Route, Link, useLocation } from 'react
 import Home from './Home';
 import JudgePage from './JudgePage';
 import AddJudge from './AddJudge';
+import TermsOfService from './TermsOfService';
+import Footer from './Footer';
 
 function Navigation() {
   const location = useLocation();
@@ -57,12 +59,16 @@ function Navigation() {
 function App() {
   return (
     <Router>
-      <Navigation />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/judge/:judgeSlug" element={<JudgePage />} />
-        <Route path="/add-judge" element={<AddJudge />} />
-      </Routes>
+      <div>
+        <Navigation />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/judge/:judgeSlug" element={<JudgePage />} />
+          <Route path="/add-judge" element={<AddJudge />} />
+          <Route path="/terms" element={<TermsOfService />} />
+        </Routes>
+        <Footer />
+      </div>
     </Router>
   );
 }
