@@ -18,7 +18,7 @@ const TermsOfService = () => (
     </p>
     <h2>4. Reporting Infringing Content</h2>
     <p>
-      If you believe any content on the Site infringes your rights or is otherwise unlawful, please contact us at <a href="mailto:support@ratemyjudge.com">support@ratemyjudge.com</a> with details. We will review complaints and may remove content at our discretion.
+      If you believe any content on the Site infringes your rights or is otherwise unlawful, please contact us at <a href="mailto:ratemyjudgehelp@gmail.com">ratemyjudgehelp@gmail.com</a> with details. We will review complaints and may remove content at our discretion.
     </p>
     <h2>5. Modifications</h2>
     <p>
@@ -30,7 +30,7 @@ const TermsOfService = () => (
     </p>
     <h2>7. Contact</h2>
     <p>
-      For questions about these Terms, contact us at <a href="mailto:support@ratemyjudge.com">support@ratemyjudge.com</a>.
+      For questions about these Terms, contact us at <a href="mailto:ratemyjudgehelp@gmail.com">ratemyjudgehelp@gmail.com</a>.
     </p>
     <p style={{ marginTop: '2rem', fontSize: '0.9em', color: '#888' }}>
       Disclaimer: This Terms of Service is provided for informational purposes only and does not constitute legal advice. For legal questions, consult an attorney.
