@@ -95,7 +95,7 @@ function Home() {
         color: '#ffffff',
         fontWeight: '300'
       }}>
-        Ratemyjudge
+        ratemyjudge
       </h1>
       
       <h2 style={{  

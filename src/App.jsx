@@ -27,7 +27,7 @@ function Navigation() {
             textDecoration: 'none'
           }}
         >
-          Ratemyjudge
+          ratemyjudge
         </Link>
         
         <div style={{
