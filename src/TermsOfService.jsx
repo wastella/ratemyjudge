@@ -26,7 +26,7 @@ const TermsOfService = () => (
     </p>
     <h2>6. Governing Law</h2>
     <p>
-      These Terms are governed by the laws of the United States and the State of [Your State].
+      These Terms are governed by the laws of the United States.
     </p>
     <h2>7. Contact</h2>
     <p>
