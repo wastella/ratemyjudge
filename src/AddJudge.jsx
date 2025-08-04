@@ -104,7 +104,7 @@ function AddJudge() {
           <div style={{ position: 'relative' }}>
             <input
               type="text"
-              placeholder="Enter NatCirc or Ohio..."
+              placeholder="Enter Circuit"
               value={circuit}
               onChange={(e) => setCircuit(e.target.value)}
               style={{
